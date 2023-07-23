@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "author": "Christopher Guerrero",
+  "license": "MIT",
   "dependencies": {
     "@types/node": "20.4.4",
     "@types/react": "18.2.15",
