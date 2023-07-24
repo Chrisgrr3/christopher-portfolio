@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Providers } from "./chakra/providers";
+import { Providers } from "../lib/chakra/providers";
 
 export const metadata: Metadata = {
   title: "Christopher Guerrero - Homepage",
