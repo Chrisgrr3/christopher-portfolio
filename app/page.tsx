@@ -1,7 +1,10 @@
+"use client";
+import { Box } from "@chakra-ui/react";
+
 export default function Home() {
   return (
-    <main>
-      <h1>This is the main page for my portfolio website.</h1>
-    </main>
+    <Box bg="custom.softwhite" w="100%" p={4} color="black">
+      This is a box
+    </Box>
   );
 }
