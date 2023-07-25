@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Providers } from "./_chakra/providers";
 import { Box } from "@chakra-ui/react";
-import RootComponent from "./components/rootComponent";
+import RootComponent from "./components/RootComponent";
 export const metadata: Metadata = {
   title: "Christopher Guerrero - Homepage",
   description:
