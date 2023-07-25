@@ -11,8 +11,8 @@ const siteTheme = {
     },
   },
   fonts: {
-    heading: `Noto Sans Old Italic, ${base.fonts?.heading}`,
-    body: `Noto Sans Old Italic, ${base.fonts?.body}`,
+    heading: `Noto Sans, ${base.fonts?.heading}`,
+    body: `Montserrat, ${base.fonts?.body}`,
   },
 };
 
