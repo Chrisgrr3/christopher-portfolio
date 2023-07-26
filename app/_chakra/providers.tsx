@@ -10,7 +10,7 @@ import "../_css/fonts.css";
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <CacheProvider>
-      <ChakraProvider theme={theme}>{children}</ChakraProvider>
+      <ChakraProvider theme={theme}> {children}</ChakraProvider>
     </CacheProvider>
   );
 }
