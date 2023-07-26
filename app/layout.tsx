@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Providers } from "./_chakra/providers";
-import { Box } from "@chakra-ui/react";
-import RootComponent from "./components/RootComponent";
+import { Navbar } from "./components/Navbar";
 export const metadata: Metadata = {
   title: "Christopher Guerrero - Homepage",
   description:
@@ -17,7 +16,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
-          <RootComponent>{children}</RootComponent>
+          <Navbar />
+          {children}
         </Providers>
       </body>
     </html>

@@ -1,19 +1,10 @@
-// Specify custom them for site
-import { theme as base } from "@chakra-ui/react";
+import { extendTheme, type ThemeConfig } from "@chakra-ui/react";
 
-const siteTheme = {
-  colors: {
-    custom: {
-      transparent: "transparent",
-      softwhite: "#f9f1f1",
-      yellow: "#eeba30",
-      orange: "#fa7e1e",
-    },
-  },
-  fonts: {
-    heading: `Noto Sans, ${base.fonts?.heading}`,
-    body: `Montserrat, ${base.fonts?.body}`,
-  },
+const customTheme: ThemeConfig = {
+  initialColorMode: "dark",
+  useSystemColorMode: false,
 };
 
-export default siteTheme;
+const theme = extendTheme({ customTheme });
+
+export default theme;
