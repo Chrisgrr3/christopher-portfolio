@@ -7,11 +7,7 @@ export const metadata: Metadata = {
     "Christopher is a fullstack developer with a passion for all things new.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Website({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>

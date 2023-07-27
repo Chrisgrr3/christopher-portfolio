@@ -7,7 +7,7 @@ import theme from "./theme";
 
 import "../_css/fonts.css";
 
-export function Chakra({ cookies, children }: { cookies: React. ,children: React.ReactNode }) {
+export function Chakra({ children }: { children: React.ReactNode }) {
   return (
     <CacheProvider>
       <ChakraProvider theme={theme}>
