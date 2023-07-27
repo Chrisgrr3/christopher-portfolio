@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Providers } from "./_chakra/providers";
+import { Chakra } from "./_chakra/Chakra";
 import { Navbar } from "./components/Navbar";
 export const metadata: Metadata = {
   title: "Christopher Guerrero - Homepage",
@@ -15,10 +15,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Providers>
+        <Chakra>
           <Navbar />
           {children}
-        </Providers>
+        </Chakra>
       </body>
     </html>
   );
