@@ -11,7 +11,7 @@ export function Chakra({ children }: { children: React.ReactNode }) {
   return (
     <CacheProvider>
       <ChakraProvider theme={theme}>
-        <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+        <ColorModeScript type="cookie" />
         {children}
       </ChakraProvider>
     </CacheProvider>
